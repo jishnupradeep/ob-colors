@@ -1,0 +1,25 @@
+{
+  "name": "ob-colors",
+  "version": "1.0.0",
+  "description": "An NPM package for Outbrain's Color styling files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jishnupradeep/ob-colors.git"
+  },
+  "keywords": [
+    "npm",
+    "node",
+    "masks",
+    "javascript"
+  ],
+  "author": "Jishnu Pradeep",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jishnupradeep/ob-colors/issues"
+  },
+  "homepage": "https://github.com/jishnupradeep/ob-colors#readme"
+}
