@@ -1,0 +1,207 @@
+///Importing Colors from colors.less file
+@import 'colors.less';
+
+
+@screen-width-breaking-point: 1200px;
+
+/// Predefined font sizes
+@font-size-xTiny: 0.6rem; //12px
+@font-size-tiny: 0.8rem; //12px
+@font-size-small: 0.86rem; //~13px
+@font-size-normal: 1rem; //15px
+@font-size-large: 1.25rem; //15px
+@font-size-slarge: 1.33rem; //21px
+@font-size-xlarge: 1.5rem; //22.5px
+
+/// Predefined font weight
+@font-weight-light: 300;
+@font-weight-normal: 400;
+@font-weight-bold: 600;
+@white: @white-00;
+@darker-white: @grey-04;
+@gray-very-white: @grey-04;
+
+@gray-away: @grey-04;
+@as-grey-as-it-gets: @grey-04;
+@gray-vanilla: @grey-06;
+@gray-light: @grey-06;
+@gray-blue: @grey-07;
+@gray-even-lighter: @grey-15;
+@gray-lighter: @grey-08;
+@gray: @grey-13;
+@gray-light-color: @grey-13;
+@gray-placeholder: @grey-28;
+@grayer: @grey-40;
+@darker-gray: @grey-40;
+@lighter-gray: @grey-06;
+@lighter-light-gray: @grey-06;
+@light-gray: @grey-40;
+@darker-Text: @grey-56;
+@blue-box: @blue-13;
+@blue-box-text: @blue-63;
+@lightorange: @earth-11;
+@blue-one: @purple-55;
+
+@black: @black-60;
+@blacker: @green-82;
+@blue: @blue-47;
+@deep-blue: @purple-55;
+@deepest-blue: @blue-72;
+@smoked-blue: @purple-53;
+@deep-smoke-blue: @purple-55;
+@red: @red-61;
+@orange: @orange-34;
+@light-yellow: @earth-11;
+@dark-red: @red-67;
+@dark-purple: @purple-53;
+@vanilla: @grey-02;
+@light-ashen: @grey-12;
+@light-green: @grass-50;
+@highlight-background: @yellow-28;
+@kpio-blue: @blue-61;
+@kpio-yellow: @orange-44;
+
+// MasterStyles (guidelines)
+// ------------------------
+
+// outbrain
+@outbrain-brand: @orange-47;
+
+//amplify
+@amplify-brand: @plum-72;
+@primary-buttons: @plum-57;
+@primary-buttons-hover: @plum-84;
+@yet-another-purple: @purple-58;
+
+//cross
+@table-header: @blue-60;
+@text-link-color: @blue-48;
+@table-level2: @blue-25;
+@regular-font-color: @grey-67;
+@subhead-font-color: @grey-40;
+@tertiary-font-color: @grey-25;
+@placeholder-color: @light-gray;
+@dropdown-hover-selection: @grey-40;
+@big-input-outline: @blue-60;
+@amplify-brand-color: @plum-72;
+@active-state-color: @grey-12;
+@body-color: @grey-07;
+
+// Alerts
+@alert-top: 62px;
+@alert-info: @blue-60;
+@alert-info-dark: @blue-68;
+@alert-warning: @earth-15;
+@alert-warning-dark: @orange-44;
+@alert-error: @red-61;
+@alert-error-dark: @red-66;
+@alert-success: @green-51;
+@alert-success-dark: @green-56;
+@alert-light-blue: @blue-26;
+
+/////////////////////////////
+
+@nav-item-background: @grey-06;
+@nav-background-color: @grey-03;
+@nav-border-color: @grey-08;
+
+@color-body: @black-60;
+
+@core-base-prefix-name: '_am_core-';
+@core-pre: '.@{core-base-prefix-name}';
+@core-prefix: ~'@{core-pre}';
+
+@view-port-width: 1024px;
+@view-port-padding: 17px;
+@main-working-area-padding-top: 62px;
+
+@spinner-size: 15px;
+
+@yellow-border: @earth-17;
+
+@z-index-base: 9999;
+@z-index-error: @z-index-base + 100;
+@z-index-header: @z-index-base + 21;
+@z-index-main-nav: @z-index-base + 20;
+@z-index-tooltip: @z-index-base + 30;
+@z-index-dropdown: @z-index-base + 10;
+@z-index-dlg-over-slider: @z-index-base + 200;
+
+@summary-card-width: 270px;
+@summary-card-margin: 90px;
+
+@main-header-height: 45px;
+@header-primary-height: 40px;
+@header-secondary-height: 50px;
+@main-nav-height: 50px;
+@sub-nav-height: 60px;
+
+@top-nav-height: 65px;
+
+@am-core-font-family: 'Open Sans', sans-serif;
+@am-core-font-icon: 'symmetric-ui';
+
+// -----
+// Grid colors
+
+@ladies-and-gentlemen-another-gray: @grey-04;
+@light-grey: @grey-07;
+@kinda-grey: @grey-02;
+@grey-border: @grey-50;
+@lighter-grey-border: @blue-14;
+@grey-hover: @blue-24;
+@dark-grey-border: @grey-25;
+@red-notification: @red-61;
+@light-gray-border: @grey-08;
+@grey-background: @grey-06;
+@grey-separator: @grey-28;
+@black-text: @grey-67;
+@dark-grey-text: @grey-22;
+@dirty-white: @grey-07;
+@gray-kinda-white: @grey-15;
+@darkish-grey-text: @grey-67;
+@grey-text: @grey-73;
+@not-active-text: @grey-15;
+@grey-btn-border: @purple-17;
+@purple-border: @purple-35;
+@anchor-hover: @purple-35;
+@purple-bg: @purple-55;
+@purple-blue-outline: @purple-53;
+@greyer-border: @grey-22;
+@gray-thick-border-color: @grey-10;
+@gray-thick-border: 2px solid @grey-10;
+@gray-dashed-border: @grey-22;
+@header-cell-performance: @purple-64;
+@header-cell-normal: @purple-53;
+@cell-icon-disabled: @purple-23;
+@cell-small-faded-text: @grey-40;
+@grid-header-info-message: @orange-44;
+@chart-axis-1: @green-57;
+@chart-axis-2: @primary-buttons;
+@platform-chart-axis-1: @green-40; // desktop
+@platform-chart-axis-2: @grey-73; // tablet
+@platform-chart-axis-3: @blue-65; // mobile
+
+@light-purple-border: @purple-17;
+@row-create-highlight: @green-07 ;
+@grid-template-background: @grey-02;
+@group_title_color: @plum-72;
+@warn-color: @red-61;
+@toggle-enabled-color: @green-47;
+
+//cards
+@cards-margin: 3px;
+@cards-padding: 11px 15px;
+
+//animations
+@pop-out: cubic-bezier(0.740, -0.180, 0.075, 1.405);
+
+// new settings width
+@new-settings-min-width: 1024px;
+@new-settings-max-width: 1440px;
+
+@potential-reach-value: @green-51;
+
+@help-callout-color: @purple-53;
+
+@dialog-min-height: 600px;
