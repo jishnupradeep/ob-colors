@@ -4,7 +4,8 @@
   "description": "An NPM package for Outbrain's Color styling files",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./src",
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/jishnupradeep/ob-colors/issues"
   },
-  "homepage": "https://github.com/jishnupradeep/ob-colors#readme"
+  "homepage": "https://github.com/jishnupradeep/ob-colors#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0"
+  }
 }
